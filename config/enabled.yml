@@ -1375,6 +1375,10 @@ Style/BracesAroundHashParameters:
   Description: 'Enforce braces style around hash parameters.'
   Enabled: true
 
+  Style/BracesAroundHashParametersInArray:
+  Description: 'Enforce braces style around hash parameters in array.'
+  Enabled: true
+
 Style/CaseEquality:
   Description: 'Avoid explicit use of the case equality operator(===).'
   StyleGuide: '#no-case-equality'
