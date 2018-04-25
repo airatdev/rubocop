@@ -11,7 +11,7 @@ RSpec.describe RuboCop::Cop::Style::BracesAroundLastHashInArray, :config do
 
   context 'with single line list of values' do
     context 'when EnforcedStyle is no_braces' do
-      let(:cop_config) { { 'EnforcedStyleForMultiline' => 'no_comma' } }
+      let(:cop_config) { { 'EnforcedStyleForMultiline' => 'no_braces' } }
 
       include_examples 'single line lists', ''
     end

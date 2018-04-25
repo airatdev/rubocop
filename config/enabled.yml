@@ -1375,7 +1375,7 @@ Style/BracesAroundHashParameters:
   Description: 'Enforce braces style around hash parameters.'
   Enabled: true
 
-  Style/BracesAroundHashParametersInArray:
+  Style/BracesAroundLastHashInArray:
   Description: 'Enforce braces style around hash parameters in array.'
   Enabled: true
 

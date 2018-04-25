@@ -908,19 +908,15 @@ Style/BracesAroundHashParameters:
     # also a hash literal.
     - context_dependent
 
-Style/BracesAroundHashParametersInArray:
+Style/BracesAroundLastHashInArray:
   EnforcedStyle: no_braces
   SupportedStyles:
-    # The `braces` style enforces braces around all method parameters that are
+    # The `braces` style enforces braces around last array element which is
     # hashes.
     - braces
-    # The `no_braces` style checks that the last parameter doesn't have braces
+    # The `no_braces` style checks that the last hash in array doesn't have braces
     # around it.
     - no_braces
-    # The `context_dependent` style checks that the last parameter doesn't have
-    # braces around it, but requires braces if the second to last parameter is
-    # also a hash literal.
-    - context_dependent
 
 Style/ClassAndModuleChildren:
   # Checks the style of children definitions at classes and modules.
